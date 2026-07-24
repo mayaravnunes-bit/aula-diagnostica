@@ -27,3 +27,8 @@ print(f"A soma dos dois números é: {soma}")
 numero = float(input("Digite um número para dobrar: "))
 dobro = numero * 2
 print(f"O dobro de {numero} é {dobro}")
+
+
+texto = input("Digite uma palavra ou frase: ")
+tamanho = len(texto)
+print(f"O que você digitou tem {tamanho} letras/espaços.")
