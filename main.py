@@ -43,3 +43,6 @@ preco_final = preco - desconto
 print(f"Com 10% de desconto, o preço cai para: R$ {preco_final:.2f}")
 
 
+palavra = input("Digite uma palavra: ")
+vezes = int(input("Quantas vezes quer repetir? "))
+print((palavra + " ") * vezes)
