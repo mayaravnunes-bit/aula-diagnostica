@@ -37,3 +37,9 @@ celsius = float(input("Digite a temperatura em °C: "))
 fahrenheit = (celsius * 9/5) + 32
 print(f"A temperatura em Fahrenheit é: {fahrenheit}°F")
 
+preco = float(input("Digite o preço do produto: R$ "))
+desconto = preco * 0.10
+preco_final = preco - desconto
+print(f"Com 10% de desconto, o preço cai para: R$ {preco_final:.2f}")
+
+
