@@ -16,3 +16,5 @@ def calcular_commits(tarefa_principal):
 calcular_commits("Criar tela de login")
 
 altura = float(input("digite sua altura"))
+
+anos =int(input("quantos anos voce tem" :))
