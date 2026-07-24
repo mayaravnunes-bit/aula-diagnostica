@@ -32,3 +32,8 @@ print(f"O dobro de {numero} é {dobro}")
 texto = input("Digite uma palavra ou frase: ")
 tamanho = len(texto)
 print(f"O que você digitou tem {tamanho} letras/espaços.")
+
+celsius = float(input("Digite a temperatura em °C: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"A temperatura em Fahrenheit é: {fahrenheit}°F")
+
